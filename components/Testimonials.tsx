@@ -31,7 +31,7 @@ const reviews = [
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="py-24 bg-charcoal relative overflow-hidden">
+    <section id="testimonials" className="py-24 bg-charcoal relative overflow-hidden">
       {/* Background Texture */}
       <div className="absolute inset-0 opacity-5" 
         style={{ 

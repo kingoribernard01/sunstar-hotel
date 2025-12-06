@@ -90,14 +90,16 @@ export default function Hero({ onBookNow }: HeroProps) {
       </div>
       
       {/* Scroll indicator */}
-      <motion.div 
+      <motion.a 
+        href="#about"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/30 animate-bounce hidden md:block"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/30 hover:text-white transition-colors animate-bounce hidden md:block cursor-pointer z-20"
+        aria-label="Scroll to About section"
       >
         <ChevronDown size={32} />
-      </motion.div>
+      </motion.a>
     </section>
   );
 }

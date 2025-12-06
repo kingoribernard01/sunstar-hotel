@@ -33,7 +33,7 @@ const Navbar: React.FC<NavbarProps> = ({ onBookNow }) => {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2">
+        <a href="#home" className="flex items-center gap-2">
           <div className="w-10 h-10 bg-gold rounded-tr-xl rounded-bl-xl flex items-center justify-center">
             <span className="text-charcoal font-serif font-bold text-xl">S</span>
           </div>
