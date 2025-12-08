@@ -191,7 +191,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="text-center mt-8 text-xs text-white/20">
-          &copy; {new Date().getFullYear()} Sunstar Hotel Nairobi. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Sunstar Hotel Nairobi. All Rights Reserved. Designed by <a href="https://novus-studios.vercel.app" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Novus Studios</a>.
         </div>
 
       </div>

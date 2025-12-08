@@ -58,7 +58,7 @@ export default function Hero({ onBookNow }: HeroProps) {
             </button>
             <a
               href="#rooms"
-              className="flex w-full items-center justify-center gap-2 text-white/70 transition-colors hover:text-white sm:w-auto"
+              className="neumorphic-button hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] relative w-full overflow-hidden rounded-full border border-white/10 bg-gradient-to-b from-white/10 to-white/5 px-8 py-4 text-white shadow-lg transition-all duration-300 hover:border-gold/30 sm:w-auto font-bold tracking-wide flex items-center justify-center gap-2"
             >
               <span>View Rooms</span>
               <ArrowRight className="h-4 w-4" />
